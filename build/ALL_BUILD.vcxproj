@@ -69,7 +69,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\APIs_Engines\dx11startingproject\imgui-docking;D:\APIs_Engines\dx11startingproject\imgui-docking\backends;D:\APIs_Engines\dx11startingproject\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\APIs_Engines\dx11startingproject\imgui-docking;D:\APIs_Engines\dx11startingproject\imgui-docking\backends;D:\APIs_Engines\dx11startingproject\build\_deps\glm-src;D:\APIs_Engines\dx11startingproject\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\APIs_Engines\dx11startingproject\imgui-docking;D:\APIs_Engines\dx11startingproject\imgui-docking\backends;D:\APIs_Engines\dx11startingproject\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\APIs_Engines\dx11startingproject\imgui-docking;D:\APIs_Engines\dx11startingproject\imgui-docking\backends;D:\APIs_Engines\dx11startingproject\build\_deps\glm-src;D:\APIs_Engines\dx11startingproject\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -89,7 +89,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\APIs_Engines\dx11startingproject\imgui-docking;D:\APIs_Engines\dx11startingproject\imgui-docking\backends;D:\APIs_Engines\dx11startingproject\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\APIs_Engines\dx11startingproject\imgui-docking;D:\APIs_Engines\dx11startingproject\imgui-docking\backends;D:\APIs_Engines\dx11startingproject\build\_deps\glm-src;D:\APIs_Engines\dx11startingproject\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -99,7 +99,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>D:\APIs_Engines\dx11startingproject\imgui-docking;D:\APIs_Engines\dx11startingproject\imgui-docking\backends;D:\APIs_Engines\dx11startingproject\build\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\APIs_Engines\dx11startingproject\imgui-docking;D:\APIs_Engines\dx11startingproject\imgui-docking\backends;D:\APIs_Engines\dx11startingproject\build\_deps\glm-src;D:\APIs_Engines\dx11startingproject\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
