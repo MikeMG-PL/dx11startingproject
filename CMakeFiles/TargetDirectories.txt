@@ -1,3 +1,5 @@
 D:/APIs_Engines/dx11startingproject/CMakeFiles/DX11Playground.dir
 D:/APIs_Engines/dx11startingproject/CMakeFiles/ALL_BUILD.dir
 D:/APIs_Engines/dx11startingproject/CMakeFiles/ZERO_CHECK.dir
+D:/APIs_Engines/dx11startingproject/build/_deps/glm-build/CMakeFiles/ALL_BUILD.dir
+D:/APIs_Engines/dx11startingproject/build/_deps/glm-build/glm/CMakeFiles/glm.dir

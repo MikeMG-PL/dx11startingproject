@@ -56,6 +56,9 @@
     <CustomBuild Include="D:\APIs_Engines\dx11startingproject\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="D:\APIs_Engines\dx11startingproject\build\_deps" />
+  </ItemGroup>
+  <ItemGroup>
     <Filter Include="Header Files">
       <UniqueIdentifier>{0EF8F2D8-C090-3430-BF77-53DF284FDC9D}</UniqueIdentifier>
     </Filter>

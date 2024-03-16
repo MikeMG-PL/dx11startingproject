@@ -17,6 +17,21 @@ file(GLOB IMGUI_SOURCES ${CMAKE_SOURCE_DIR}/imgui-docking/*.cpp)
 file(GLOB IMGUI_BACKEND_HEADERS ${CMAKE_SOURCE_DIR}/imgui-docking/backends/*.h)
 file(GLOB IMGUI_BACKEND_SOURCES ${CMAKE_SOURCE_DIR}/imgui-docking/backends/*.cpp)
 
+# Include CPM module
+include(cmake/CPM.cmake)
+
+# Define GLM version
+set(GLM_VERSION 1.0.1)
+
+set(GLM_INCLUDE_DIRS ${CMAKE_BINARY_DIR}/_deps/glm-src/)
+
+# Use CPM to fetch and configure GLM
+CPMAddPackage(
+    NAME GLM
+    VERSION ${GLM_VERSION}
+    URL https://github.com/g-truc/glm/archive/${GLM_VERSION}.tar.gz
+)
+
 # Add executable target
 add_executable(DX11Playground 
     src/main.cpp 
@@ -24,7 +39,11 @@ add_executable(DX11Playground
     ${IMGUI_SOURCES}
     ${IMGUI_BACKEND_HEADERS}
     ${IMGUI_BACKEND_SOURCES}
+    ${GLM_INCLUDE_DIRS}
 )
 
+# Add include directory for GLM
+include_directories(${GLM_INCLUDE_DIRS})
+
 # Link against necessary libraries (if ImGui requires external libraries)
-# target_link_libraries(DX11Playground ImGui)
+target_link_libraries(DX11Playground ImGui)
