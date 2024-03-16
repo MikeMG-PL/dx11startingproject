@@ -1,0 +1,3 @@
+D:/APIs_Engines/dx11startingproject/build/CMakeFiles/DX11Playground.dir
+D:/APIs_Engines/dx11startingproject/build/CMakeFiles/ALL_BUILD.dir
+D:/APIs_Engines/dx11startingproject/build/CMakeFiles/ZERO_CHECK.dir

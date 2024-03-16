@@ -12,6 +12,7 @@
 #include <d3d11.h>
 #include <tchar.h>
 #include <d3dcompiler.h>
+#include <iostream>
 #pragma comment(lib, "d3d11.lib")
 
 // Data
@@ -20,6 +21,7 @@ static ID3D11DeviceContext* g_pd3dDeviceContext = nullptr;
 static IDXGISwapChain* g_pSwapChain = nullptr;
 static UINT                     g_ResizeWidth = 0, g_ResizeHeight = 0;
 static ID3D11RenderTargetView* g_mainRenderTargetView = nullptr;
+static LPCWSTR shaderPath = L"../res/shaders.hlsl";
 
 // Forward declarations of helper functions
 bool CreateDeviceD3D(HWND hWnd);
@@ -107,7 +109,7 @@ int main(int, char**)
     ID3D11VertexShader* vertexShader;
     {
         ID3DBlob* shaderCompileErrorsBlob;
-        HRESULT hResult = D3DCompileFromFile(L"shaders.hlsl", nullptr, nullptr, "vs_main", "vs_5_0", 0, 0, &vsBlob, &shaderCompileErrorsBlob);
+        HRESULT hResult = D3DCompileFromFile(shaderPath, nullptr, nullptr, "vs_main", "vs_5_0", 0, 0, &vsBlob, &shaderCompileErrorsBlob);
 
         if (FAILED(hResult))
         {
@@ -128,7 +130,7 @@ int main(int, char**)
     ID3D11PixelShader* pixelShader;
     {
         ID3DBlob* shaderCompileErrorsBlob;
-        HRESULT hResult = D3DCompileFromFile(L"shaders.hlsl", nullptr, nullptr, "ps_main", "ps_5_0", 0, 0, &psBlob, &shaderCompileErrorsBlob);
+        HRESULT hResult = D3DCompileFromFile(shaderPath, nullptr, nullptr, "ps_main", "ps_5_0", 0, 0, &psBlob, &shaderCompileErrorsBlob);
         if (FAILED(hResult))
         {
             const char* errorString = NULL;

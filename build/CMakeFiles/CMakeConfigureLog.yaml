@@ -1,0 +1,229 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Wersja programu MSBuild 17.8.3+195e7f5a3 dla .NET Framework
+      Kompilacja rozpoczęła się 16.03.2024 11:55:16.
+      
+      Projekt „D:\\APIs_Engines\\dx11startingproject\\build\\CMakeFiles\\3.26.0\\CompilerIdC\\CompilerIdC.vcxproj” w węźle 1 (domyślne elementy docelowe).
+      PrepareForBuild:
+        Tworzenie katalogu „Debug\\”.
+        Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+        Tworzenie katalogu „Debug\\CompilerIdC.tlog\\”.
+      InitializeBuildStatus:
+        Trwa tworzenie „Debug\\CompilerIdC.tlog\\unsuccessfulbuild”, ponieważ określono "AlwaysCreate".
+        Modyfikowanie „Debug\\CompilerIdC.tlog\\unsuccessfulbuild”.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\APIs_Engines\\dx11startingproject\\build\\CMakeFiles\\3.26.0\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Usuwanie pliku „Debug\\CompilerIdC.tlog\\unsuccessfulbuild”.
+        Modyfikowanie „Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”.
+      Kompilowanie projektu „D:\\APIs_Engines\\dx11startingproject\\build\\CMakeFiles\\3.26.0\\CompilerIdC\\CompilerIdC.vcxproj” wykonane (domyślne elementy docelowe).
+      
+      Kompilacja powiodła się.
+          Ostrzeżenia: 0
+          Liczba błędów: 0
+      
+      Czas, który upłynął: 00:00:00.82
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/APIs_Engines/dx11startingproject/build/CMakeFiles/3.26.0/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Wersja programu MSBuild 17.8.3+195e7f5a3 dla .NET Framework
+      Kompilacja rozpoczęła się 16.03.2024 11:55:17.
+      
+      Projekt „D:\\APIs_Engines\\dx11startingproject\\build\\CMakeFiles\\3.26.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj” w węźle 1 (domyślne elementy docelowe).
+      PrepareForBuild:
+        Tworzenie katalogu „Debug\\”.
+        Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+        Tworzenie katalogu „Debug\\CompilerIdCXX.tlog\\”.
+      InitializeBuildStatus:
+        Trwa tworzenie „Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”, ponieważ określono "AlwaysCreate".
+        Modyfikowanie „Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\APIs_Engines\\dx11startingproject\\build\\CMakeFiles\\3.26.0\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Usuwanie pliku „Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”.
+        Modyfikowanie „Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”.
+      Kompilowanie projektu „D:\\APIs_Engines\\dx11startingproject\\build\\CMakeFiles\\3.26.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj” wykonane (domyślne elementy docelowe).
+      
+      Kompilacja powiodła się.
+          Ostrzeżenia: 0
+          Liczba błędów: 0
+      
+      Czas, który upłynął: 00:00:00.73
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/APIs_Engines/dx11startingproject/build/CMakeFiles/3.26.0/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/APIs_Engines/dx11startingproject/build/CMakeFiles/CMakeScratch/TryCompile-obxf7w"
+      binary: "D:/APIs_Engines/dx11startingproject/build/CMakeFiles/CMakeScratch/TryCompile-obxf7w"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/APIs_Engines/dx11startingproject/build/CMakeFiles/CMakeScratch/TryCompile-obxf7w
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a4840.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Wersja programu MSBuild 17.8.3+195e7f5a3 dla .NET Framework
+        Kompilacja rozpoczęła się 16.03.2024 11:55:18.
+        
+        Projekt „D:\\APIs_Engines\\dx11startingproject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-obxf7w\\cmTC_a4840.vcxproj” w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu „cmTC_a4840.dir\\Debug\\”.
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu „D:\\APIs_Engines\\dx11startingproject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-obxf7w\\Debug\\”.
+          Tworzenie katalogu „cmTC_a4840.dir\\Debug\\cmTC_a4840.tlog\\”.
+        InitializeBuildStatus:
+          Trwa tworzenie „cmTC_a4840.dir\\Debug\\cmTC_a4840.tlog\\unsuccessfulbuild”, ponieważ określono "AlwaysCreate".
+          Modyfikowanie „cmTC_a4840.dir\\Debug\\cmTC_a4840.tlog\\unsuccessfulbuild”.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a4840.dir\\Debug\\\\" /Fd"cmTC_a4840.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.38.33130 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a4840.dir\\Debug\\\\" /Fd"cmTC_a4840.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\APIs_Engines\\dx11startingproject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-obxf7w\\Debug\\cmTC_a4840.exe" /INCREMENTAL /ILK:"cmTC_a4840.dir\\Debug\\cmTC_a4840.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/APIs_Engines/dx11startingproject/build/CMakeFiles/CMakeScratch/TryCompile-obxf7w/Debug/cmTC_a4840.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/APIs_Engines/dx11startingproject/build/CMakeFiles/CMakeScratch/TryCompile-obxf7w/Debug/cmTC_a4840.lib" /MACHINE:X64  /machine:x64 cmTC_a4840.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_a4840.vcxproj -> D:\\APIs_Engines\\dx11startingproject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-obxf7w\\Debug\\cmTC_a4840.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku „cmTC_a4840.dir\\Debug\\cmTC_a4840.tlog\\unsuccessfulbuild”.
+          Modyfikowanie „cmTC_a4840.dir\\Debug\\cmTC_a4840.tlog\\cmTC_a4840.lastbuildstate”.
+        Kompilowanie projektu „D:\\APIs_Engines\\dx11startingproject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-obxf7w\\cmTC_a4840.vcxproj” wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.71
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/APIs_Engines/dx11startingproject/build/CMakeFiles/CMakeScratch/TryCompile-cketqq"
+      binary: "D:/APIs_Engines/dx11startingproject/build/CMakeFiles/CMakeScratch/TryCompile-cketqq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/APIs_Engines/dx11startingproject/build/CMakeFiles/CMakeScratch/TryCompile-cketqq
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_dcd65.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Wersja programu MSBuild 17.8.3+195e7f5a3 dla .NET Framework
+        Kompilacja rozpoczęła się 16.03.2024 11:55:19.
+        
+        Projekt „D:\\APIs_Engines\\dx11startingproject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cketqq\\cmTC_dcd65.vcxproj” w węźle 1 (domyślne elementy docelowe).
+        PrepareForBuild:
+          Tworzenie katalogu „cmTC_dcd65.dir\\Debug\\”.
+          Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu „D:\\APIs_Engines\\dx11startingproject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cketqq\\Debug\\”.
+          Tworzenie katalogu „cmTC_dcd65.dir\\Debug\\cmTC_dcd65.tlog\\”.
+        InitializeBuildStatus:
+          Trwa tworzenie „cmTC_dcd65.dir\\Debug\\cmTC_dcd65.tlog\\unsuccessfulbuild”, ponieważ określono "AlwaysCreate".
+          Modyfikowanie „cmTC_dcd65.dir\\Debug\\cmTC_dcd65.tlog\\unsuccessfulbuild”.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dcd65.dir\\Debug\\\\" /Fd"cmTC_dcd65.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.38.33130 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dcd65.dir\\Debug\\\\" /Fd"cmTC_dcd65.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\APIs_Engines\\dx11startingproject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cketqq\\Debug\\cmTC_dcd65.exe" /INCREMENTAL /ILK:"cmTC_dcd65.dir\\Debug\\cmTC_dcd65.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/APIs_Engines/dx11startingproject/build/CMakeFiles/CMakeScratch/TryCompile-cketqq/Debug/cmTC_dcd65.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/APIs_Engines/dx11startingproject/build/CMakeFiles/CMakeScratch/TryCompile-cketqq/Debug/cmTC_dcd65.lib" /MACHINE:X64  /machine:x64 cmTC_dcd65.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_dcd65.vcxproj -> D:\\APIs_Engines\\dx11startingproject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cketqq\\Debug\\cmTC_dcd65.exe
+        FinalizeBuildStatus:
+          Usuwanie pliku „cmTC_dcd65.dir\\Debug\\cmTC_dcd65.tlog\\unsuccessfulbuild”.
+          Modyfikowanie „cmTC_dcd65.dir\\Debug\\cmTC_dcd65.tlog\\cmTC_dcd65.lastbuildstate”.
+        Kompilowanie projektu „D:\\APIs_Engines\\dx11startingproject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cketqq\\cmTC_dcd65.vcxproj” wykonane (domyślne elementy docelowe).
+        
+        Kompilacja powiodła się.
+            Ostrzeżenia: 0
+            Liczba błędów: 0
+        
+        Czas, który upłynął: 00:00:00.73
+        
+      exitCode: 0
+...
