@@ -48,5 +48,5 @@ include_directories(${GLM_INCLUDE_DIRS})
 # Add directory "include" for .h files
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
-# Link against necessary libraries (if ImGui requires external libraries)
-target_link_libraries(DX11Playground ImGui)
+# Don't link against it lol
+# target_link_libraries(DX11Playground ImGui)
